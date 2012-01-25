@@ -43,9 +43,9 @@
 //#endif
 //Debian BSD patch:
 #ifdef Q_OS_WIN32
-     #include <Phonon>
+     #include <MediaObject>
 #else
-     #include <phonon>
+     #include <MediaObject>
 #endif
 
 class QAction;

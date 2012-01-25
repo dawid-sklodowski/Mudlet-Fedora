@@ -16,9 +16,10 @@ exists(/usr/local/lib/libluajit-5.1.a):LIBLUA = -L/usr/local/lib -lluajit-5.1
 
 unix:LIBS += -lpcre \
     $$LIBLUA \
-    -lhunspell \
+    -lhunspell-1.2 \
     -lyajl \
-    -lzzip
+    -lzzip \
+    -lz
 
 win32:LIBS += -L"c:\mudlet2_package" \
     -llua51 \
